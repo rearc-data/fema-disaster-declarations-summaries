@@ -4,7 +4,7 @@
 
 # OpenFEMA Dataset: Disaster Declarations Summaries - V2 | FEMA
 
-You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [](). 
+You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-ur6ztd6oyhuse](https://aws.amazon.com/marketplace/pp/prodview-ur6ztd6oyhuse). 
 
 ## Main Overview
 FEMA Disaster Declarations Summary is a summarized dataset describing all federally declared disasters. This dataset lists all official FEMA Disaster Declarations, beginning with the first disaster declaration in 1953 and features all three disaster declaration types: major disaster, emergency, and fire management assistance. The dataset includes declared recovery programs and geographic areas (county not available before 1964; Fire Management records are considered partial due to historical nature of the dataset).
@@ -62,8 +62,9 @@ To learn about about the data fields, please visit [the dataset's documentation]
 
 ## Contact Details
 - If you find any issues with or have enhancement ideas for this product, open up a GitHub [issue](https://github.com/rearc-data/fema-disaster-declarations-summaries/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.
+- If you are looking for specific open datasets currently not available on ADX, please submit a request on our project board [here](https://github.com/orgs/rearc-data/projects/1).
 - If you have questions about the source data, please contact FEMA News Desk at FEMA-News-Desk@dhs.gov.
-- If you have any other questions, feedback or open dataset request send us an email at data@rearc.io.
+- If you have any other questions or feedback, send us an email at data@rearc.io.
 
 ## About Rearc
 Rearc is a cloud, software and services company. We believe that empowering engineers drives innovation. Cloud-native architectures, modern software and data practices, and the ability to safely experiment can enable engineers to realize their full potential. We have partnered with several enterprises and startups to help them achieve agility. Our approach is simple — empower engineers with the best tools possible to make an impact within their industry.
