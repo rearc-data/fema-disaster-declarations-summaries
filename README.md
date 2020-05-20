@@ -1,6 +1,10 @@
+<a href="https://www.rearc.io/data/">
+    <img src="./rearc_logo_rgb.png" alt="Rearc Logo" title="Rearc Logo" height="52" />
+</a>
+
 # OpenFEMA Dataset: Disaster Declarations Summaries - V2 | FEMA
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/fema-disaster-declarations-summaries](https://github.com/rearc-data/fema-disaster-declarations-summaries).
+You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [](). 
 
 ## Main Overview
 FEMA Disaster Declarations Summary is a summarized dataset describing all federally declared disasters. This dataset lists all official FEMA Disaster Declarations, beginning with the first disaster declaration in 1953 and features all three disaster declaration types: major disaster, emergency, and fire management assistance. The dataset includes declared recovery programs and geographic areas (county not available before 1964; Fire Management records are considered partial due to historical nature of the dataset).
