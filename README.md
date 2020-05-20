@@ -11,8 +11,8 @@ FEMA Disaster Declarations Summary is a summarized dataset describing all federa
 
 Please note the unique structure of the disaster sequencing (due to a numbering system that originated in the 1950's-1970's):
 
-| | | |
-|-|-|-|
+| | |
+|-|-|
 | 0001-1999 | Major Disaster Declaration |
 | 2000-2999 | Fire Management |
 | 3000-3999 | Emergency Declaration (Special Emergency) |
