@@ -12,6 +12,8 @@ def data_to_s3(endpoint):
 
 	source_dataset_url = 'https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries'
 
+	response = None
+
 	retries = 5
 	for attempt in range(retries):
 		try:
