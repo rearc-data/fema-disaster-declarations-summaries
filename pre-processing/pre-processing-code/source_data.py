@@ -18,7 +18,6 @@ def data_to_s3(endpoint):
 	for attempt in range(retries):
 		try:
 			response = urlopen(source_dataset_url + endpoint)
-			break
 		except HTTPError as e:
 			if attempt == retries:
 				raise Exception('HTTPError: ', e.code, endpoint)
@@ -28,6 +27,8 @@ def data_to_s3(endpoint):
 			if attempt == retries:
 				raise Exception('URLError: ', e.reason, endpoint)
 			time.sleep(0.2 * attempt)
+		else:
+			break
 
 	data_set_name = os.environ['DATA_SET_NAME']
 	filename = data_set_name + endpoint
