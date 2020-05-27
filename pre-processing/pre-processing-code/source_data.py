@@ -29,6 +29,9 @@ def data_to_s3(endpoint):
 			time.sleep(0.2 * attempt)
 		else:
 			break
+	
+	if response == None:
+		raise Exception('There was an issue downloading the dataset', endpoint)
 
 	data_set_name = os.environ['DATA_SET_NAME']
 	filename = data_set_name + endpoint
