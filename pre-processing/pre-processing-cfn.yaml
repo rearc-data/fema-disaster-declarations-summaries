@@ -85,7 +85,7 @@ Resources:
     Type: AWS::Events::Rule
     Properties:
       Description: "ScheduledRule"
-      ScheduleExpression: "rate(1 day)"
+      ScheduleExpression: "cron(0 10 * * ? *)"
       State: "ENABLED"
       Targets:
         -
